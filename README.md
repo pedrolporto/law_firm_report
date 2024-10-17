@@ -7,7 +7,7 @@ Este projeto consiste em um relatório financeiro interativo desenvolvido no Pow
 O relatório tem como foco principal:
 
 - Monitoramento do fluxo de caixa, receitas e despesas operacionais.
-- Análise da rentabilidade por cliente e por tipo de caso.
+- Análise da rentabilidade por cliente e por tipo de caso (identificador criminal).
 - Identificação de tendências de produtividade por colaborador.
 - Controle de gastos e análise de contas.
 - Comparação de resultados com metas financeiras pré-estabelecidas.
@@ -22,10 +22,9 @@ O relatório tem como foco principal:
 
 O relatório foi organizado em diferentes páginas que abordam aspectos financeiros e operacionais críticos para o escritório, tais como:
 
-1. **Visão Geral Financeira**: Apresenta os principais KPIs financeiros, como receita total, despesas e margem de lucro.
+1. **Visão Geral Financeira**: Apresenta os principais KPIs financeiros, como gasto total até o momento, projeção de gasto total esperado e margem disponível.
 2. **Análise de Clientes**: Detalhamento da rentabilidade por cliente, volume de casos por cliente e segmentação de inadimplência.
-3. **Performance de Advogados**: Métricas de produtividade por advogado, faturamento por hora e análise de alocação de tempo.
-4. **Contas a Receber**: Visão detalhada sobre inadimplências, prazos médios de recebimento e aging de contas.
+3. **Performance de Advogados**: Métricas de produtividade por advogado, despesas e análise de alocação de tempo.
 
 ## Screenshots
 
@@ -47,3 +46,11 @@ Abra o arquivo .pbix no Power BI Desktop para visualizar o relatório e, se nece
 Requisitos para Execução
 Power BI Desktop (última versão recomendada)
 Acesso às bases de dados financeiras do escritório de advocacia (dados fictícios ou anonimizados podem ser usados para teste)
+
+## Autor
+
+- [@pedrolporto](https://www.github.com/pedrolporto)
+
+## Dados
+
+- Dados fornecidos pela DataTechFlorida.
